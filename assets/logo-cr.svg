@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFD84D"/>
+      <stop offset="100%" stop-color="#FFC400"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="100%" height="100%" fill="white"/>
+
+  <text x="260" y="470"
+        font-family="Arial Black, Arial, sans-serif"
+        font-size="420"
+        font-weight="900"
+        fill="url(#gold)">C</text>
+
+  <text x="620" y="470"
+        font-family="Arial Black, Arial, sans-serif"
+        font-size="420"
+        font-weight="900"
+        fill="url(#gold)">R</text>
+
+  <path d="
+      M670 120
+      L520 330
+      L635 330
+      L485 560
+      L785 360
+      L690 360
+      L845 120
+      Z"
+      fill="url(#gold)"/>
+</svg>
