@@ -12,3 +12,21 @@
 .logo-panel img{background:transparent!important;border:0!important;box-shadow:none!important;padding:0!important;filter:drop-shadow(0 18px 28px rgba(0,0,0,.45))}
 @media(max-width:900px){.brand img{width:118px!important;max-height:56px!important}}
 @media(max-width:560px){.brand img{width:104px!important;max-height:50px!important}}
+
+/* SEO local: novas seções de problemas, regiões e FAQ */
+.problems{background:rgba(255,255,255,.018);border-top:1px solid var(--border)}
+.keyword-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.keyword-card,.faq-item{padding:24px;border-radius:22px;background:linear-gradient(180deg,rgba(255,255,255,.065),rgba(255,255,255,.025));border:1px solid var(--border)}
+.keyword-card strong{display:block;color:var(--yellow);font-size:18px;line-height:1.2;margin-bottom:10px}
+.keyword-card span,.faq-item p{color:var(--muted);margin:0}
+.service-area{background:radial-gradient(circle at 25% 20%,rgba(248,198,0,.13),transparent 30%),rgba(255,255,255,.025);border-block:1px solid var(--border)}
+.area-grid{display:grid;grid-template-columns:1fr 1fr;gap:42px;align-items:center}
+.area-grid h2{margin:0;line-height:1;letter-spacing:-.05em;font-size:clamp(34px,4.3vw,56px)}
+.area-grid p{color:var(--muted);font-size:18px}
+.city-list{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-start}
+.city-list span{padding:12px 16px;border-radius:999px;border:1px solid rgba(248,198,0,.28);background:rgba(248,198,0,.08);font-weight:800;color:#f6f0cf}
+.faq{background:rgba(255,255,255,.018)}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:980px;margin:0 auto}
+.faq-item h3{margin:0 0 10px;font-size:20px;line-height:1.2;color:#fff}
+@media(max-width:900px){.keyword-grid{grid-template-columns:1fr 1fr}.area-grid{grid-template-columns:1fr}.faq-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.keyword-grid{grid-template-columns:1fr}.city-list span{width:100%;text-align:center}.nav a[href="#regiao"],.nav a[href="#faq"]{display:block}}
